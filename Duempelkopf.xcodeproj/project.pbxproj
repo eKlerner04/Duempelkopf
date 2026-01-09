@@ -10,9 +10,23 @@
 		D6B447CB2F0FEB9D00194B02 /* Duempelkopf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Duempelkopf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D67F18C92F1119BD006755DC /* Exceptions for "Duempelkopf" folder in "Duempelkopf" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Frontend/GameViews/DoppelKopfGameView.swift,
+				Frontend/GameViews/SkatGameView.swift,
+			);
+			target = D6B447CA2F0FEB9D00194B02 /* Duempelkopf */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D6B447CD2F0FEB9D00194B02 /* Duempelkopf */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D67F18C92F1119BD006755DC /* Exceptions for "Duempelkopf" folder in "Duempelkopf" target */,
+			);
 			path = Duempelkopf;
 			sourceTree = "<group>";
 		};
