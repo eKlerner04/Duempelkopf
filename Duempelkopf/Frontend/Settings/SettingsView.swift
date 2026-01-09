@@ -8,14 +8,13 @@ import SwiftUI
 
 struct SettingsView: View{
     var body: some View{
-        VStack{
-            Image(systemName: "home")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("SettingsView")
+        NavigationStack{
+            VStack{
+                Text("Settings View")
+            }//VStack
+            .navigationTitle("Settings")
         }
-        .padding()
-    }
+    }//NavigationStack
 }
 
 #Preview {
