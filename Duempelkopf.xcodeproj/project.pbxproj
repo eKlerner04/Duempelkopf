@@ -15,7 +15,6 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Frontend/GameViews/DoppelKopfGameView.swift,
-				Frontend/GameViews/SkatGameView.swift,
 			);
 			target = D6B447CA2F0FEB9D00194B02 /* Duempelkopf */;
 		};
